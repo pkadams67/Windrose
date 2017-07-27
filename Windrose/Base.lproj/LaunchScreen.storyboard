@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Windrose" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12I-qh-EdQ">
+                                <rect key="frame" x="0.0" y="96.999999999999986" width="414" height="62.666666666666643"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="48"/>
+                                <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Windrose" translatesAutoresizingMaskIntoConstraints="NO" id="g8w-dz-jLY">
+                                <rect key="frame" x="0.0" y="183.66666666666663" width="414" height="369"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Copyright © 2017 Paul Adams." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c8A-J9-QNL">
+                                <rect key="frame" x="0.0" y="576.66666666666652" width="414" height="18.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="12I-qh-EdQ" firstAttribute="bottom" secondItem="g8w-dz-jLY" secondAttribute="top" constant="-24" id="56t-rG-5Zo"/>
+                            <constraint firstItem="g8w-dz-jLY" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="1/2" constant="1" id="5gt-Z0-VgD"/>
+                            <constraint firstAttribute="trailing" secondItem="12I-qh-EdQ" secondAttribute="trailing" id="ATa-Li-vtN"/>
+                            <constraint firstItem="g8w-dz-jLY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="C37-W5-tVS"/>
+                            <constraint firstAttribute="trailing" secondItem="c8A-J9-QNL" secondAttribute="trailing" id="C8f-2I-bRj"/>
+                            <constraint firstItem="c8A-J9-QNL" firstAttribute="top" secondItem="g8w-dz-jLY" secondAttribute="bottom" constant="24" id="F0R-QF-z47"/>
+                            <constraint firstItem="g8w-dz-jLY" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="Zed-JJ-iGJ"/>
+                            <constraint firstItem="c8A-J9-QNL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="wn8-TS-fo4"/>
+                            <constraint firstItem="12I-qh-EdQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="xEM-Ur-Mv7"/>
+                            <constraint firstItem="g8w-dz-jLY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zcp-8a-Dge"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Windrose" width="1024" height="1024"/>
+    </resources>
+</document>
